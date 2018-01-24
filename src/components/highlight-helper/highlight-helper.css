@@ -8,6 +8,11 @@
     min-width: 1000px;
 }
 
+.highlight-helper h3
+{
+    text-align: center;
+}
+
 .highlight-helper__markup,
 .highlight-helper__form-textarea
 {
@@ -20,5 +25,7 @@
     border: none;
     resize: none;
 
-    background-color: #FAFAFA;
+    background-color: #fcfcfc;
+
+    min-height: calc(18 * 15px);
 }

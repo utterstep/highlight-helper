@@ -15,11 +15,10 @@ class HighlightHelperForm extends Component {
 
         return (
             <div className="highlight-helper__form">
-                <h3>Текст:</h3>
+                <h3>Текст</h3>
                 <Textarea
                     className="highlight-helper__form-textarea"
                     onChange={this.onChange}
-                    rows={80}
                     value={text}
                     />
             </div>

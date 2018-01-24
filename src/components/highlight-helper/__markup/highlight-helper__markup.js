@@ -42,7 +42,7 @@ const HighlightHelperMarkup = ({text}) => {
 
     return (
         <div className="highlight-helper__markup">
-            <h3>Разметка:</h3>
+            <h3>Разметка</h3>
             <pre>
                 {serialize(markup, {isJSON: true, space: 2})}
             </pre>
