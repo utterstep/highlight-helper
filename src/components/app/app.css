@@ -1,0 +1,37 @@
+.app {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app__logo {
+  animation: app-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.app__header {
+  background-color: #222;
+  height: 100px;
+  padding: 20px;
+  color: white;
+
+  text-align: center;
+}
+
+.app__title {
+  font-size: 1.5em;
+}
+
+.app__intro {
+  font-size: large;
+}
+
+.app__main
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes app-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

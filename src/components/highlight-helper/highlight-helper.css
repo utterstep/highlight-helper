@@ -1,0 +1,24 @@
+.highlight-helper
+{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+
+    min-width: 1000px;
+}
+
+.highlight-helper__markup,
+.highlight-helper__form-textarea
+{
+    width: 480px;
+    height: 500px;
+}
+
+.highlight-helper__form-textarea
+{
+    border: none;
+    resize: none;
+
+    background-color: #FAFAFA;
+}
