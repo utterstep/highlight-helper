@@ -13,6 +13,11 @@
     text-align: center;
 }
 
+.highlight-helper__markup-code
+{
+    white-space: pre-wrap;
+}
+
 .highlight-helper__markup,
 .highlight-helper__form-textarea
 {

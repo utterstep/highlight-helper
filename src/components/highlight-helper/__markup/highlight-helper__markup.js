@@ -1,7 +1,7 @@
 import React from 'react';
 import serialize from 'serialize-javascript';
 
-const HIGHLIGHT_SELECTION_RE = /\[(\w+)]/g
+const HIGHLIGHT_SELECTION_RE = /\[(.+?)]/gu;
 
 const cleanTextReplacer = (match, p1) => p1;
 
@@ -43,7 +43,7 @@ const HighlightHelperMarkup = ({text}) => {
     return (
         <div className="highlight-helper__markup">
             <h3>Разметка</h3>
-            <pre>
+            <pre className="highlight-helper__markup-code">
                 {serialize(markup, {isJSON: true, space: 2})}
             </pre>
         </div>
